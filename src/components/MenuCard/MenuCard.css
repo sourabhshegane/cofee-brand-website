@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.menu-card-container {
+    background-color: #fff;
+    width: 350px;
+    display: flex;
+    padding: 25px;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 16px;
+    box-shadow: 0 0 5px 2px rgb(223, 220, 220);
+}
+
+.menu-card-top-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+
+.menu-item-name {
+    font-size: 18px;
+    color: #222222;
+    font-weight: 600;
+}
+
+.menu-item-price {
+    font-size: 18px;
+    font-weight: 600;
+    color: #b68834;
+}
+
+.menu-item-description {
+    font-size: 14px;
+    font-weight: 300;
+    color: #777777;
+}

@@ -1,0 +1,22 @@
+.metric-item-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.metric-item-container h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.metric-item-count {
+    font-weight: 100;
+    font-size: 60px;
+    line-height: 72px;
+    color: #fff;
+}
+
+.metric-item-title {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 23px;
+    color: #ffffff;
+}

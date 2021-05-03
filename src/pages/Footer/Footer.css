@@ -1,0 +1,74 @@
+.footer-container {
+    height: 50vh;
+    display: flex;
+    background: url('../../assets/footer-bg.jpg') no-repeat;
+    background-size: cover;
+    padding-top: 200px;
+    justify-content: space-evenly;
+}
+
+.footer-container h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.col-one {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.footer-about-us {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+}
+
+.footer-about-us-content {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 23px;
+    color: white;
+}
+
+.footer-made-by-text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 23px;
+    color: white;
+}
+
+.col-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.news-letter-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: white;
+}
+
+.stay-updated-title {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 23px;
+    color: white;
+}
+
+.news-letter-email {
+    padding: 5px;
+}
+
+.news-letter-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.get-email {
+    padding: 5px;
+    background-color: orange;
+}

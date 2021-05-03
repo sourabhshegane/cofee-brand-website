@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.home-container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    background: url('../../assets/header-bg.jpg') no-repeat;
+    background-size: contain;
+    justify-content: start;
+    align-items: flex-start;
+    padding-left: 25vh;
+    padding-top: 15vh;
+    gap: 10px;
+}
+
+.home-container h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+.home-sub-title {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.home-main-title {
+    font-weight: 600px;
+    font-size: 60px;
+}
+
+.home-buy-now {
+    background: #fff;
+    border: 1px solid white;
+    color: #222;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: #222222;
+    font-size: 14px;
+    transition: 1ms ease-in-out;
+}
+
+.home-buy-now:hover {
+    background: transparent;
+    color: #fff;
+}

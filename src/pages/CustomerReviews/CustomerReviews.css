@@ -1,0 +1,49 @@
+.customer-reviews-container {
+    height: 100vh;
+    background-color: #B68834;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.customer-review-title-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+
+.customer-reviews-container h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.customer-review-title {
+    font-weight: 600;
+    font-size: 36px;
+    color: #fff;
+    line-height: 43px;
+}
+
+.customer-review-sub-title {
+    font-weight: 300;
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 23px;
+}
+
+.customer-reviews {
+    display: flex;
+    gap: 25px;
+}
+
+.customer-metrics-container {
+    display: flex;
+}
+
+.customer-metric-item {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    justify-content: space-evenly;
+}
